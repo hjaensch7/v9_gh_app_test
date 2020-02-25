@@ -4,7 +4,7 @@ from v9 import V9Component
 
 def test(http_method, path, request_arguments, request_body):
     print(http_method, path, request_arguments, request_body)
-    return 200, "Github app deployed properly"
+    return 200, "Testing activator and pause api"
 
 if __name__ == '__main__':
     print("Arguments " + str(sys.argv))
